@@ -1,0 +1,25 @@
+{
+  "name": "Jarvis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "deploy": "adb install ./android/app/build/outputs/apk/app-debug.apk"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "create-hmac": "^1.1.4",
+    "crypto": "0.0.3",
+    "hmac": "^1.0.1",
+    "hmacsha1": "^1.0.0",
+    "jssha": "^2.2.0",
+    "lodash": "^4.16.2",
+    "moment": "^2.15.1",
+    "react": "15.3.2",
+    "react-native": "0.34.0",
+    "react-native-speech": "^0.1.2",
+    "react-native-speech-notification": "git+https://github.com/kn4rfy/react-native-speech-notification.git",
+    "react-native-voice": "^0.1.6",
+    "request": "^2.75.0"
+  }
+}
